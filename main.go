@@ -24,5 +24,5 @@ func main() {
 			return
 		}
 	}
-	fmt.Fprintf(os.Stderr, "%s, fibonacci number util\n\tfibutil n\t:fibonacci number\n\tfibutil n1 n2\t:fibonacci number list\n", os.Args[0])
+	fmt.Fprintf(os.Stderr, "%s, Fibonacci number util\n\tfibutil n\t: Fibonacci number\n\tfibutil n1 n2\t: Fibonacci number list\n", os.Args[0])
 }

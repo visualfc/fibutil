@@ -14,9 +14,9 @@ Fibonacci numbers integer sequence:
 
 ### fibutil/fib
 
-	func fib.Fib(n int64)
-	func fib.FastFib(n int64)
-	func fib.FibList(n1, n2 int64)
+	func fib.Fib(n int64) *big.Int
+	func fib.FastFib(n int64) *big.Int
+	func fib.FibList(n1, n2 int64) []string
 	
 ### fibutil	
 Fibonacci number util
