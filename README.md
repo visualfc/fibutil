@@ -7,7 +7,11 @@ Fibonacci numbers integer sequence:
 
 	0 1 1 2 3 5 8 13 21 34 55 89 144 ...
 	-21 13 -8 5 －3 2 －1 1 0 1 1 2 3 5 8 13 21 ...
-	
+
+### Install
+
+	go get -v github.com/visualfc/fibutil
+
 ### fibutil/fib
 
 	func fib.Fib(n int64)
