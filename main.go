@@ -1,3 +1,7 @@
+// Copyright 2013 visualfc <visualfc@gmail.com>.  All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
 // fibutil project main.go
 package main
 
@@ -16,6 +20,7 @@ func main() {
 			fmt.Println(fib.FastFib(n))
 			return
 		}
+
 	case 3:
 		n1, e1 := strconv.ParseInt(os.Args[1], 10, 64)
 		n2, e2 := strconv.ParseInt(os.Args[2], 10, 64)

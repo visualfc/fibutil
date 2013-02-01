@@ -21,14 +21,17 @@ Fibonacci numbers integer sequence:
 ### fibutil	
 Fibonacci number util
 
-Usage:
+**Usage:**
 
 	fibutil n		:fibonacci number
 	fibutil n1 n2	:fibonacci number list
 
-Example:	
+**Example:**	
 
 	fibutil 10 		=> 55
 	fibutil -10 10  => [-55 34 -21 13 -8 5 -3 2 -1 1 0 1 1 2 3 5 8 13 21 34 55]
 	fibutil 299     => 137347080577163115432025771710279131845700275212767467264610201
 	
+### License:
+
+BSD License
